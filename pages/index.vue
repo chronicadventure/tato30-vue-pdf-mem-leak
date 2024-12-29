@@ -1,7 +1,5 @@
 <template>
     <h3>
-        <NuxtLink :to="'/pdf'">
-            Go to pdf
-        </NuxtLink>
+       HOME
     </h3>
 </template>

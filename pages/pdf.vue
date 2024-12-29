@@ -1,8 +1,5 @@
 <template>
     <h3>
-        <NuxtLink :to="'/'">
-            Go home
-        </NuxtLink>
         <div v-for="(page, index) in pages">
             <VuePDF :pdf="pdf" :page="page"></VuePDF>
         </div>
