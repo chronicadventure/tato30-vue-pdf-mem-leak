@@ -7,6 +7,11 @@
         </NuxtLink>
       </li>
       <li>
+        <NuxtLink :to="'/pdf-manual-load'">
+          Go to manual load pdf
+        </NuxtLink>
+      </li>
+      <li>
         <NuxtLink :to="'/'">
             Go home
         </NuxtLink>
@@ -17,6 +22,6 @@
         </NuxtLink>
       </li>
     </ul>
-    <NuxtPage/>
+    <NuxtPage :key="$route.fullPath"/>
   </div>
 </template>
