@@ -1,5 +1,8 @@
 <template>
-  <VPdfViewer :src="link"></VPdfViewer>
+  <ClientOnly>
+    <VPdfViewer :src="link"></VPdfViewer>
+  </ClientOnly>
+  
 </template>
 
 <script setup>
