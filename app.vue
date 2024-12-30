@@ -6,21 +6,21 @@
             Go to pdf
         </NuxtLink>
       </li>
-      <li>
-        <NuxtLink :to="'/pdf-manual-load'">
+      <!-- <li>
+        <NuxtLink :to="'/pdf-lazy-load'">
           Go to manual load pdf
         </NuxtLink>
-      </li>
+      </li> -->
       <li>
         <NuxtLink :to="'/'">
             Go home
         </NuxtLink>
       </li>
-      <li>
+      <!-- <li>
         <NuxtLink :to="'/non-pdf'">
             Go to large dom
         </NuxtLink>
-      </li>
+      </li> -->
     </ul>
     <NuxtPage :key="$route.fullPath"/>
   </div>
